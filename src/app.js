@@ -15,7 +15,12 @@ let generateExcuse = () => {
   let subject = ["tree", "child", "squirrel", "cat"];
   let action = ["cried on my", "danced with my", "tore my", "withered my"];
   let possession = [" hair ", " phone", "clothes", "shoes"];
-  let where = ["garden", "forest", "river", "desert"];
+  let where = [
+    "in the garden",
+    "in the forest",
+    "by the river",
+    "in the desert"
+  ];
 
   let pronounIndex = Math.floor(Math.random() * pronoun.length);
   let subjectIndex = Math.floor(Math.random() * subject.length);
